@@ -1,7 +1,7 @@
 CMakeFiles/ImageEditor.dir/lib/random.cpp.o: \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/random.cpp \
+ /home/armelle/Documents/GitHub/Workshop/lib/random.cpp \
  /usr/include/stdc-predef.h \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/random.hpp \
+ /home/armelle/Documents/GitHub/Workshop/lib/random.hpp \
  /usr/include/c++/13/random /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

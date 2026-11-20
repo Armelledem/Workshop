@@ -1,7 +1,7 @@
 lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.o: \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/lib/stb_image/stb_image.cpp \
+ /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/lib/stb_image/stb_image.cpp \
  /usr/include/stdc-predef.h \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/lib/stb_image/stb_image.h \
+ /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/lib/stb_image/stb_image.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

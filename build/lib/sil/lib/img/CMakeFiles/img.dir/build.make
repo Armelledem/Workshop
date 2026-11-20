@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/armelle/Documents/IMAC/S1-Prog-Workshop-main
+CMAKE_SOURCE_DIR = /home/armelle/Documents/GitHub/Workshop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build
+CMAKE_BINARY_DIR = /home/armelle/Documents/GitHub/Workshop/build
 
 # Include any dependencies generated for this target.
 include lib/sil/lib/img/CMakeFiles/img.dir/depend.make
@@ -70,32 +70,32 @@ include lib/sil/lib/img/CMakeFiles/img.dir/progress.make
 include lib/sil/lib/img/CMakeFiles/img.dir/flags.make
 
 lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o: lib/sil/lib/img/CMakeFiles/img.dir/flags.make
-lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o: /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Load.cpp
+lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o: /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Load.cpp
 lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o: lib/sil/lib/img/CMakeFiles/img.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o"
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o -MF CMakeFiles/img.dir/src/Load.cpp.o.d -o CMakeFiles/img.dir/src/Load.cpp.o -c /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Load.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o"
+	cd /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o -MF CMakeFiles/img.dir/src/Load.cpp.o.d -o CMakeFiles/img.dir/src/Load.cpp.o -c /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Load.cpp
 
 lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/img.dir/src/Load.cpp.i"
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Load.cpp > CMakeFiles/img.dir/src/Load.cpp.i
+	cd /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Load.cpp > CMakeFiles/img.dir/src/Load.cpp.i
 
 lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/img.dir/src/Load.cpp.s"
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Load.cpp -o CMakeFiles/img.dir/src/Load.cpp.s
+	cd /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Load.cpp -o CMakeFiles/img.dir/src/Load.cpp.s
 
 lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o: lib/sil/lib/img/CMakeFiles/img.dir/flags.make
-lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o: /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Save.cpp
+lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o: /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Save.cpp
 lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o: lib/sil/lib/img/CMakeFiles/img.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o"
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o -MF CMakeFiles/img.dir/src/Save.cpp.o.d -o CMakeFiles/img.dir/src/Save.cpp.o -c /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Save.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o"
+	cd /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o -MF CMakeFiles/img.dir/src/Save.cpp.o.d -o CMakeFiles/img.dir/src/Save.cpp.o -c /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Save.cpp
 
 lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/img.dir/src/Save.cpp.i"
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Save.cpp > CMakeFiles/img.dir/src/Save.cpp.i
+	cd /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Save.cpp > CMakeFiles/img.dir/src/Save.cpp.i
 
 lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/img.dir/src/Save.cpp.s"
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Save.cpp -o CMakeFiles/img.dir/src/Save.cpp.s
+	cd /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Save.cpp -o CMakeFiles/img.dir/src/Save.cpp.s
 
 # Object files for target img
 img_OBJECTS = \
@@ -109,19 +109,19 @@ lib/sil/lib/img/libimg.a: lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o
 lib/sil/lib/img/libimg.a: lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o
 lib/sil/lib/img/libimg.a: lib/sil/lib/img/CMakeFiles/img.dir/build.make
 lib/sil/lib/img/libimg.a: lib/sil/lib/img/CMakeFiles/img.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libimg.a"
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img && $(CMAKE_COMMAND) -P CMakeFiles/img.dir/cmake_clean_target.cmake
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/img.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libimg.a"
+	cd /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img && $(CMAKE_COMMAND) -P CMakeFiles/img.dir/cmake_clean_target.cmake
+	cd /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/img.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/sil/lib/img/CMakeFiles/img.dir/build: lib/sil/lib/img/libimg.a
 .PHONY : lib/sil/lib/img/CMakeFiles/img.dir/build
 
 lib/sil/lib/img/CMakeFiles/img.dir/clean:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img && $(CMAKE_COMMAND) -P CMakeFiles/img.dir/cmake_clean.cmake
+	cd /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img && $(CMAKE_COMMAND) -P CMakeFiles/img.dir/cmake_clean.cmake
 .PHONY : lib/sil/lib/img/CMakeFiles/img.dir/clean
 
 lib/sil/lib/img/CMakeFiles/img.dir/depend:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/armelle/Documents/IMAC/S1-Prog-Workshop-main /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img/CMakeFiles/img.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/armelle/Documents/GitHub/Workshop /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img /home/armelle/Documents/GitHub/Workshop/build /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img/CMakeFiles/img.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lib/sil/lib/img/CMakeFiles/img.dir/depend
 

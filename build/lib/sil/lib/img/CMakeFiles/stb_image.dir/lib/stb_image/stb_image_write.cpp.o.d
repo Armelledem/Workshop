@@ -1,7 +1,7 @@
 lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.o: \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/lib/stb_image/stb_image_write.cpp \
+ /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/lib/stb_image/stb_image_write.cpp \
  /usr/include/stdc-predef.h \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/lib/stb_image/stb_image_write.h \
+ /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/lib/stb_image/stb_image_write.h \
  /usr/include/c++/13/stdlib.h /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

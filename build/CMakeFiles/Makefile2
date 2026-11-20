@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/armelle/Documents/IMAC/S1-Prog-Workshop-main
+CMAKE_SOURCE_DIR = /home/armelle/Documents/GitHub/Workshop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build
+CMAKE_BINARY_DIR = /home/armelle/Documents/GitHub/Workshop/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -152,14 +152,14 @@ CMakeFiles/ImageEditor.dir/all: lib/sil/lib/img/CMakeFiles/img.dir/all
 CMakeFiles/ImageEditor.dir/all: lib/sil/lib/img/CMakeFiles/stb_image.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageEditor.dir/build.make CMakeFiles/ImageEditor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageEditor.dir/build.make CMakeFiles/ImageEditor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles --progress-num=1,2,3 "Built target ImageEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles --progress-num=1,2,3 "Built target ImageEditor"
 .PHONY : CMakeFiles/ImageEditor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ImageEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ImageEditor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles 0
 .PHONY : CMakeFiles/ImageEditor.dir/rule
 
 # Convenience name for target.
@@ -179,14 +179,14 @@ lib/sil/CMakeFiles/sil.dir/all: lib/sil/lib/img/CMakeFiles/img.dir/all
 lib/sil/CMakeFiles/sil.dir/all: lib/sil/lib/img/CMakeFiles/stb_image.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/sil/CMakeFiles/sil.dir/build.make lib/sil/CMakeFiles/sil.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/sil/CMakeFiles/sil.dir/build.make lib/sil/CMakeFiles/sil.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles --progress-num=7,8 "Built target sil"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles --progress-num=7,8 "Built target sil"
 .PHONY : lib/sil/CMakeFiles/sil.dir/all
 
 # Build rule for subdir invocation for target.
 lib/sil/CMakeFiles/sil.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/CMakeFiles/sil.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles 0
 .PHONY : lib/sil/CMakeFiles/sil.dir/rule
 
 # Convenience name for target.
@@ -205,14 +205,14 @@ lib/sil/CMakeFiles/sil.dir/clean:
 lib/sil/lib/img/CMakeFiles/img.dir/all: lib/sil/lib/img/CMakeFiles/stb_image.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles --progress-num=4,5,6 "Built target img"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles --progress-num=4,5,6 "Built target img"
 .PHONY : lib/sil/lib/img/CMakeFiles/img.dir/all
 
 # Build rule for subdir invocation for target.
 lib/sil/lib/img/CMakeFiles/img.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/CMakeFiles/img.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles 0
 .PHONY : lib/sil/lib/img/CMakeFiles/img.dir/rule
 
 # Convenience name for target.
@@ -231,14 +231,14 @@ lib/sil/lib/img/CMakeFiles/img.dir/clean:
 lib/sil/lib/img/CMakeFiles/stb_image.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles --progress-num=9,10,11 "Built target stb_image"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles --progress-num=9,10,11 "Built target stb_image"
 .PHONY : lib/sil/lib/img/CMakeFiles/stb_image.dir/all
 
 # Build rule for subdir invocation for target.
 lib/sil/lib/img/CMakeFiles/stb_image.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/CMakeFiles/stb_image.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles 0
 .PHONY : lib/sil/lib/img/CMakeFiles/stb_image.dir/rule
 
 # Convenience name for target.
@@ -257,7 +257,7 @@ lib/sil/lib/img/CMakeFiles/stb_image.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

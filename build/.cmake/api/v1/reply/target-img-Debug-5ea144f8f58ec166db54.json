@@ -96,7 +96,7 @@
 				{
 					"backtrace" : 4,
 					"isSystem" : true,
-					"path" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/lib"
+					"path" : "/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/lib"
 				}
 			],
 			"language" : "CXX",

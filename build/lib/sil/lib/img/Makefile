@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/armelle/Documents/IMAC/S1-Prog-Workshop-main
+CMAKE_SOURCE_DIR = /home/armelle/Documents/GitHub/Workshop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build
+CMAKE_BINARY_DIR = /home/armelle/Documents/GitHub/Workshop/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img//CMakeFiles/progress.marks
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles 0
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles /home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img//CMakeFiles/progress.marks
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/clean
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,23 +148,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/preinstall
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/preinstall
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -P /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -P /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/sil/lib/img/CMakeFiles/img.dir/rule:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/CMakeFiles/img.dir/rule
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/CMakeFiles/img.dir/rule
 .PHONY : lib/sil/lib/img/CMakeFiles/img.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ img: lib/sil/lib/img/CMakeFiles/img.dir/rule
 
 # fast build rule for target.
 img/fast:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/build
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/build
 .PHONY : img/fast
 
 # Convenience name for target.
 lib/sil/lib/img/CMakeFiles/stb_image.dir/rule:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/CMakeFiles/stb_image.dir/rule
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/lib/img/CMakeFiles/stb_image.dir/rule
 .PHONY : lib/sil/lib/img/CMakeFiles/stb_image.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ stb_image: lib/sil/lib/img/CMakeFiles/stb_image.dir/rule
 
 # fast build rule for target.
 stb_image/fast:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/build
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/build
 .PHONY : stb_image/fast
 
 lib/stb_image/stb_image.o: lib/stb_image/stb_image.cpp.o
@@ -195,7 +195,7 @@ lib/stb_image/stb_image.o: lib/stb_image/stb_image.cpp.o
 
 # target to build an object file
 lib/stb_image/stb_image.cpp.o:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.o
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.o
 .PHONY : lib/stb_image/stb_image.cpp.o
 
 lib/stb_image/stb_image.i: lib/stb_image/stb_image.cpp.i
@@ -203,7 +203,7 @@ lib/stb_image/stb_image.i: lib/stb_image/stb_image.cpp.i
 
 # target to preprocess a source file
 lib/stb_image/stb_image.cpp.i:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.i
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.i
 .PHONY : lib/stb_image/stb_image.cpp.i
 
 lib/stb_image/stb_image.s: lib/stb_image/stb_image.cpp.s
@@ -211,7 +211,7 @@ lib/stb_image/stb_image.s: lib/stb_image/stb_image.cpp.s
 
 # target to generate assembly for a file
 lib/stb_image/stb_image.cpp.s:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.s
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.s
 .PHONY : lib/stb_image/stb_image.cpp.s
 
 lib/stb_image/stb_image_write.o: lib/stb_image/stb_image_write.cpp.o
@@ -219,7 +219,7 @@ lib/stb_image/stb_image_write.o: lib/stb_image/stb_image_write.cpp.o
 
 # target to build an object file
 lib/stb_image/stb_image_write.cpp.o:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.o
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.o
 .PHONY : lib/stb_image/stb_image_write.cpp.o
 
 lib/stb_image/stb_image_write.i: lib/stb_image/stb_image_write.cpp.i
@@ -227,7 +227,7 @@ lib/stb_image/stb_image_write.i: lib/stb_image/stb_image_write.cpp.i
 
 # target to preprocess a source file
 lib/stb_image/stb_image_write.cpp.i:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.i
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.i
 .PHONY : lib/stb_image/stb_image_write.cpp.i
 
 lib/stb_image/stb_image_write.s: lib/stb_image/stb_image_write.cpp.s
@@ -235,7 +235,7 @@ lib/stb_image/stb_image_write.s: lib/stb_image/stb_image_write.cpp.s
 
 # target to generate assembly for a file
 lib/stb_image/stb_image_write.cpp.s:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.s
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/stb_image.dir/build.make lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.s
 .PHONY : lib/stb_image/stb_image_write.cpp.s
 
 src/Load.o: src/Load.cpp.o
@@ -243,7 +243,7 @@ src/Load.o: src/Load.cpp.o
 
 # target to build an object file
 src/Load.cpp.o:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o
 .PHONY : src/Load.cpp.o
 
 src/Load.i: src/Load.cpp.i
@@ -251,7 +251,7 @@ src/Load.i: src/Load.cpp.i
 
 # target to preprocess a source file
 src/Load.cpp.i:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.i
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.i
 .PHONY : src/Load.cpp.i
 
 src/Load.s: src/Load.cpp.s
@@ -259,7 +259,7 @@ src/Load.s: src/Load.cpp.s
 
 # target to generate assembly for a file
 src/Load.cpp.s:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.s
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.s
 .PHONY : src/Load.cpp.s
 
 src/Save.o: src/Save.cpp.o
@@ -267,7 +267,7 @@ src/Save.o: src/Save.cpp.o
 
 # target to build an object file
 src/Save.cpp.o:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o
 .PHONY : src/Save.cpp.o
 
 src/Save.i: src/Save.cpp.i
@@ -275,7 +275,7 @@ src/Save.i: src/Save.cpp.i
 
 # target to preprocess a source file
 src/Save.cpp.i:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.i
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.i
 .PHONY : src/Save.cpp.i
 
 src/Save.s: src/Save.cpp.s
@@ -283,7 +283,7 @@ src/Save.s: src/Save.cpp.s
 
 # target to generate assembly for a file
 src/Save.cpp.s:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.s
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/lib/img/CMakeFiles/img.dir/build.make lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.s
 .PHONY : src/Save.cpp.s
 
 # Help Target
@@ -323,7 +323,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -P /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -P /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

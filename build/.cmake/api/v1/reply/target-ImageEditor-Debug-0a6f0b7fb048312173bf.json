@@ -83,20 +83,20 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/src"
+					"path" : "/home/armelle/Documents/GitHub/Workshop/src"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib"
+					"path" : "/home/armelle/Documents/GitHub/Workshop/lib"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/glm"
+					"path" : "/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/glm"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/include"
+					"path" : "/home/armelle/Documents/GitHub/Workshop/lib/sil/include"
 				}
 			],
 			"language" : "CXX",

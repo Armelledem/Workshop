@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/armelle/Documents/IMAC/S1-Prog-Workshop-main
+CMAKE_SOURCE_DIR = /home/armelle/Documents/GitHub/Workshop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build
+CMAKE_BINARY_DIR = /home/armelle/Documents/GitHub/Workshop/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil//CMakeFiles/progress.marks
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles 0
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles /home/armelle/Documents/GitHub/Workshop/build/lib/sil//CMakeFiles/progress.marks
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/clean
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,23 +148,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/preinstall
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/preinstall
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -P /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -P /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/sil/CMakeFiles/sil.dir/rule:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/CMakeFiles/sil.dir/rule
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/sil/CMakeFiles/sil.dir/rule
 .PHONY : lib/sil/CMakeFiles/sil.dir/rule
 
 # Convenience name for target.
@@ -173,7 +173,7 @@ sil: lib/sil/CMakeFiles/sil.dir/rule
 
 # fast build rule for target.
 sil/fast:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/CMakeFiles/sil.dir/build.make lib/sil/CMakeFiles/sil.dir/build
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/CMakeFiles/sil.dir/build.make lib/sil/CMakeFiles/sil.dir/build
 .PHONY : sil/fast
 
 src/sil.o: src/sil.cpp.o
@@ -181,7 +181,7 @@ src/sil.o: src/sil.cpp.o
 
 # target to build an object file
 src/sil.cpp.o:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/CMakeFiles/sil.dir/build.make lib/sil/CMakeFiles/sil.dir/src/sil.cpp.o
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/CMakeFiles/sil.dir/build.make lib/sil/CMakeFiles/sil.dir/src/sil.cpp.o
 .PHONY : src/sil.cpp.o
 
 src/sil.i: src/sil.cpp.i
@@ -189,7 +189,7 @@ src/sil.i: src/sil.cpp.i
 
 # target to preprocess a source file
 src/sil.cpp.i:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/CMakeFiles/sil.dir/build.make lib/sil/CMakeFiles/sil.dir/src/sil.cpp.i
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/CMakeFiles/sil.dir/build.make lib/sil/CMakeFiles/sil.dir/src/sil.cpp.i
 .PHONY : src/sil.cpp.i
 
 src/sil.s: src/sil.cpp.s
@@ -197,7 +197,7 @@ src/sil.s: src/sil.cpp.s
 
 # target to generate assembly for a file
 src/sil.cpp.s:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(MAKE) $(MAKESILENT) -f lib/sil/CMakeFiles/sil.dir/build.make lib/sil/CMakeFiles/sil.dir/src/sil.cpp.s
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(MAKE) $(MAKESILENT) -f lib/sil/CMakeFiles/sil.dir/build.make lib/sil/CMakeFiles/sil.dir/src/sil.cpp.s
 .PHONY : src/sil.cpp.s
 
 # Help Target
@@ -227,7 +227,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -P /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -P /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

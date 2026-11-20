@@ -147,8 +147,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build",
-		"source" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main"
+		"build" : "/home/armelle/Documents/GitHub/Workshop/build",
+		"source" : "/home/armelle/Documents/GitHub/Workshop"
 	},
 	"version" : 
 	{

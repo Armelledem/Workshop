@@ -1,4 +1,4 @@
-# Install script for directory: /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/glm/glm
+# Install script for directory: /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/glm/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

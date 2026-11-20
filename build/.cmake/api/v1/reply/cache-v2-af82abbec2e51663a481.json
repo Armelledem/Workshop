@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build"
+			"value" : "/home/armelle/Documents/GitHub/Workshop/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main"
+			"value" : "/home/armelle/Documents/GitHub/Workshop"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1471,7 +1471,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build"
+			"value" : "/home/armelle/Documents/GitHub/Workshop/build"
 		},
 		{
 			"name" : "ImageEditor_IS_TOP_LEVEL",
@@ -1495,7 +1495,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main"
+			"value" : "/home/armelle/Documents/GitHub/Workshop"
 		},
 		{
 			"name" : "WARNINGS_AS_ERRORS_FOR_IMG",
@@ -1543,7 +1543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/glm"
+			"value" : "/home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/glm"
 		},
 		{
 			"name" : "glm_IS_TOP_LEVEL",
@@ -1567,7 +1567,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/glm"
+			"value" : "/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/glm"
 		},
 		{
 			"name" : "sil_BINARY_DIR",
@@ -1579,7 +1579,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil"
+			"value" : "/home/armelle/Documents/GitHub/Workshop/build/lib/sil"
 		},
 		{
 			"name" : "sil_IS_TOP_LEVEL",
@@ -1603,7 +1603,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil"
+			"value" : "/home/armelle/Documents/GitHub/Workshop/lib/sil"
 		}
 	],
 	"kind" : "cache",

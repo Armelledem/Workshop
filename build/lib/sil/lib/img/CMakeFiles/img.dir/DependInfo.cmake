@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Load.cpp" "lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o" "gcc" "lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o.d"
-  "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Save.cpp" "lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o" "gcc" "lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o.d"
+  "/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Load.cpp" "lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o" "gcc" "lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o.d"
+  "/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Save.cpp" "lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o" "gcc" "lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

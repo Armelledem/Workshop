@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/lib/stb_image/stb_image.cpp" "lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.o" "gcc" "lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.o.d"
-  "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/lib/stb_image/stb_image_write.cpp" "lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.o" "gcc" "lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.o.d"
+  "/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/lib/stb_image/stb_image.cpp" "lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.o" "gcc" "lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.o.d"
+  "/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/lib/stb_image/stb_image_write.cpp" "lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.o" "gcc" "lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

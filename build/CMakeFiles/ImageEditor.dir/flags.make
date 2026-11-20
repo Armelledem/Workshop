@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/src -I/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib -I/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/glm -isystem /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/include
+CXX_INCLUDES = -I/home/armelle/Documents/GitHub/Workshop/src -I/home/armelle/Documents/GitHub/Workshop/lib -I/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/glm -isystem /home/armelle/Documents/GitHub/Workshop/lib/sil/include
 
 CXX_FLAGS = -g
 

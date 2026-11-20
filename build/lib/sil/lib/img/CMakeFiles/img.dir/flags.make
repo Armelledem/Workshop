@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/lib
+CXX_INCLUDES = -isystem /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/lib
 
 CXX_FLAGS = -g -Wall -Wextra -Wpedantic -pedantic-errors -Wconversion -Wsign-conversion
 

@@ -77,29 +77,29 @@
 			[
 				{
 					"backtrace" : 3,
-					"define" : "SIL_CMAKE_SOURCE_DIR=\"/home/armelle/Documents/IMAC/S1-Prog-Workshop-main\""
+					"define" : "SIL_CMAKE_SOURCE_DIR=\"/home/armelle/Documents/GitHub/Workshop\""
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/glm"
+					"path" : "/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/glm"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/include"
+					"path" : "/home/armelle/Documents/GitHub/Workshop/lib/sil/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/include"
+					"path" : "/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/lib"
+					"path" : "/home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/lib"
 				}
 			],
 			"language" : "CXX",

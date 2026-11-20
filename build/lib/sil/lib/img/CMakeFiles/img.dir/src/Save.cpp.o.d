@@ -1,7 +1,7 @@
 lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o: \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Save.cpp \
+ /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Save.cpp \
  /usr/include/stdc-predef.h \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Save.h \
+ /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Save.h \
  /usr/include/c++/13/filesystem \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -176,7 +176,7 @@ lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o: \
  /usr/include/c++/13/bits/unique_ptr.h \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Image.h \
+ /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Image.h \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
@@ -187,12 +187,12 @@ lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/src/Size.h \
+ /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/src/Size.h \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/c++/13/cassert /usr/include/assert.h \
- /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img/lib/stb_image/stb_image_write.h \
+ /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img/lib/stb_image/stb_image_write.h \
  /usr/include/c++/13/stdlib.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil
+# Install script for directory: /home/armelle/Documents/GitHub/Workshop/lib/sil
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,11 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/glm/cmake_install.cmake")
+  include("/home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/glm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/img/cmake_install.cmake")
+  include("/home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/img/cmake_install.cmake")
 endif()
 

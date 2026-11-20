@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/armelle/Documents/IMAC/S1-Prog-Workshop-main
+CMAKE_SOURCE_DIR = /home/armelle/Documents/GitHub/Workshop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build
+CMAKE_BINARY_DIR = /home/armelle/Documents/GitHub/Workshop/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ImageEditor.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/ImageEditor.dir/progress.make
 include CMakeFiles/ImageEditor.dir/flags.make
 
 CMakeFiles/ImageEditor.dir/lib/random.cpp.o: CMakeFiles/ImageEditor.dir/flags.make
-CMakeFiles/ImageEditor.dir/lib/random.cpp.o: /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/random.cpp
+CMakeFiles/ImageEditor.dir/lib/random.cpp.o: /home/armelle/Documents/GitHub/Workshop/lib/random.cpp
 CMakeFiles/ImageEditor.dir/lib/random.cpp.o: CMakeFiles/ImageEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ImageEditor.dir/lib/random.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageEditor.dir/lib/random.cpp.o -MF CMakeFiles/ImageEditor.dir/lib/random.cpp.o.d -o CMakeFiles/ImageEditor.dir/lib/random.cpp.o -c /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ImageEditor.dir/lib/random.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageEditor.dir/lib/random.cpp.o -MF CMakeFiles/ImageEditor.dir/lib/random.cpp.o.d -o CMakeFiles/ImageEditor.dir/lib/random.cpp.o -c /home/armelle/Documents/GitHub/Workshop/lib/random.cpp
 
 CMakeFiles/ImageEditor.dir/lib/random.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImageEditor.dir/lib/random.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/random.cpp > CMakeFiles/ImageEditor.dir/lib/random.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/armelle/Documents/GitHub/Workshop/lib/random.cpp > CMakeFiles/ImageEditor.dir/lib/random.cpp.i
 
 CMakeFiles/ImageEditor.dir/lib/random.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImageEditor.dir/lib/random.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/random.cpp -o CMakeFiles/ImageEditor.dir/lib/random.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/armelle/Documents/GitHub/Workshop/lib/random.cpp -o CMakeFiles/ImageEditor.dir/lib/random.cpp.s
 
 CMakeFiles/ImageEditor.dir/src/main.cpp.o: CMakeFiles/ImageEditor.dir/flags.make
-CMakeFiles/ImageEditor.dir/src/main.cpp.o: /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/src/main.cpp
+CMakeFiles/ImageEditor.dir/src/main.cpp.o: /home/armelle/Documents/GitHub/Workshop/src/main.cpp
 CMakeFiles/ImageEditor.dir/src/main.cpp.o: CMakeFiles/ImageEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImageEditor.dir/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageEditor.dir/src/main.cpp.o -MF CMakeFiles/ImageEditor.dir/src/main.cpp.o.d -o CMakeFiles/ImageEditor.dir/src/main.cpp.o -c /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImageEditor.dir/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageEditor.dir/src/main.cpp.o -MF CMakeFiles/ImageEditor.dir/src/main.cpp.o.d -o CMakeFiles/ImageEditor.dir/src/main.cpp.o -c /home/armelle/Documents/GitHub/Workshop/src/main.cpp
 
 CMakeFiles/ImageEditor.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImageEditor.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/src/main.cpp > CMakeFiles/ImageEditor.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/armelle/Documents/GitHub/Workshop/src/main.cpp > CMakeFiles/ImageEditor.dir/src/main.cpp.i
 
 CMakeFiles/ImageEditor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImageEditor.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/src/main.cpp -o CMakeFiles/ImageEditor.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/armelle/Documents/GitHub/Workshop/src/main.cpp -o CMakeFiles/ImageEditor.dir/src/main.cpp.s
 
 # Object files for target ImageEditor
 ImageEditor_OBJECTS = \
@@ -112,7 +112,7 @@ ImageEditor: lib/sil/libsil.a
 ImageEditor: lib/sil/lib/img/libimg.a
 ImageEditor: lib/sil/lib/img/libstb_image.a
 ImageEditor: CMakeFiles/ImageEditor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ImageEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/armelle/Documents/GitHub/Workshop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ImageEditor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImageEditor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/ImageEditor.dir/clean:
 .PHONY : CMakeFiles/ImageEditor.dir/clean
 
 CMakeFiles/ImageEditor.dir/depend:
-	cd /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/armelle/Documents/IMAC/S1-Prog-Workshop-main /home/armelle/Documents/IMAC/S1-Prog-Workshop-main /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/CMakeFiles/ImageEditor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/armelle/Documents/GitHub/Workshop/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/armelle/Documents/GitHub/Workshop /home/armelle/Documents/GitHub/Workshop /home/armelle/Documents/GitHub/Workshop/build /home/armelle/Documents/GitHub/Workshop/build /home/armelle/Documents/GitHub/Workshop/build/CMakeFiles/ImageEditor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ImageEditor.dir/depend
 

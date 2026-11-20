@@ -137,21 +137,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ImageEditor::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ImageEditor-Debug-14eb4f981a00ff84fba3.json",
+					"jsonFile" : "target-ImageEditor-Debug-0a6f0b7fb048312173bf.json",
 					"name" : "ImageEditor",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "img::@9728505c1cf5ff17dbeb",
-					"jsonFile" : "target-img-Debug-d2673f0160fc953a2980.json",
+					"jsonFile" : "target-img-Debug-5ea144f8f58ec166db54.json",
 					"name" : "img",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "sil::@6318d866cc0f5e7f2986",
-					"jsonFile" : "target-sil-Debug-279d295c859a56b1b05c.json",
+					"jsonFile" : "target-sil-Debug-9ce18ce2fa1b1e36211c.json",
 					"name" : "sil",
 					"projectIndex" : 1
 				},
@@ -168,8 +168,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build",
-		"source" : "/home/armelle/Documents/IMAC/S1-Prog-Workshop-main"
+		"build" : "/home/armelle/Documents/GitHub/Workshop/build",
+		"source" : "/home/armelle/Documents/GitHub/Workshop"
 	},
 	"version" : 
 	{

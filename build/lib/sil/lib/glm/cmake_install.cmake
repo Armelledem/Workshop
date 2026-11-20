@@ -1,4 +1,4 @@
-# Install script for directory: /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/glm
+# Install script for directory: /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/armelle/Documents/IMAC/S1-Prog-Workshop-main/build/lib/sil/lib/glm/glm/cmake_install.cmake")
+  include("/home/armelle/Documents/GitHub/Workshop/build/lib/sil/lib/glm/glm/cmake_install.cmake")
 endif()
 

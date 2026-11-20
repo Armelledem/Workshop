@@ -1,4 +1,4 @@
-# Install script for directory: /home/armelle/Documents/IMAC/S1-Prog-Workshop-main/lib/sil/lib/img
+# Install script for directory: /home/armelle/Documents/GitHub/Workshop/lib/sil/lib/img
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

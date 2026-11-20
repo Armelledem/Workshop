@@ -363,10 +363,9 @@ void exo18_trier_les_lignes(sil::Image& image)
     image = copie;
 }
 
-//void exo18
 
 
-void exo19(sil::Image& image2)
+void exo19_fractale(sil::Image& image2)
 {
     for (int x{0}; x < image2.width(); x++)
     {
@@ -556,7 +555,7 @@ void exo25_outline(sil::Image& image)
 
 void exo28_k_moyenne(sil::Image& image3)
 {
-    int k = 16;
+    int k = 5;
     std::vector<glm::vec3> centers;
     for (int i = 0; i < k; i++)
     {
@@ -614,9 +613,9 @@ int main()
     sil::Image image3{"images/photo.jpg"};
 
     
-    exo25_outline(image);
+    exo28_k_moyenne(image3);
+    image3.save("output/exo28_5.png");
 
-    image.save("output/pouet.png");
 
     
 }
